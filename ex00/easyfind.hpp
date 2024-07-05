@@ -6,7 +6,7 @@
 /*   By: adhaka <adhaka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 08:44:55 by adhaka            #+#    #+#             */
-/*   Updated: 2024/07/05 01:33:04 by adhaka           ###   ########.fr       */
+/*   Updated: 2024/07/05 11:22:51 by adhaka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ class NotFoundException : public std::exception
 			return "Element not found";
 		}
 };
-
 
 template <typename T>
 typename T::iterator easyfind(T &container, int val)
