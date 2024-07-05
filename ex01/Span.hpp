@@ -6,7 +6,7 @@
 /*   By: adhaka <adhaka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 08:45:16 by adhaka            #+#    #+#             */
-/*   Updated: 2024/07/05 02:27:46 by adhaka           ###   ########.fr       */
+/*   Updated: 2024/07/05 13:16:24 by adhaka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,16 @@
 #include <vector>
 #include <algorithm>
 #include <exception>
+#include <limits>
 
 class Span
 {
+	private:
+		Span();
+		unsigned int _maxS;
+		std::vector<int> _numbers;
 	public:
-		Span(unsigned int n);
+		Span(unsigned int N);
 		~Span();
 		Span(const Span &span);
 		Span &operator=(const Span &span);
@@ -51,11 +56,6 @@ class Span
 					return "Error: Span is empty or contains only one element";
 				}
 		};
-
-	private:
-		Span();
-		unsigned int _maxS;
-		std::vector<int> _numbers;
 };
 
 template <typename InputIterator>

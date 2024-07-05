@@ -6,13 +6,13 @@
 /*   By: adhaka <adhaka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 08:45:10 by adhaka            #+#    #+#             */
-/*   Updated: 2024/07/05 02:26:08 by adhaka           ###   ########.fr       */
+/*   Updated: 2024/07/05 12:39:21 by adhaka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Span.hpp"
 
-Span::Span(unsigned int n) : _maxS(n)
+Span::Span(unsigned int N) : _maxS(N)
 {
 }
 Span::~Span()
