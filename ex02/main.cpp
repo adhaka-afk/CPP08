@@ -6,7 +6,7 @@
 /*   By: adhaka <adhaka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 08:45:19 by adhaka            #+#    #+#             */
-/*   Updated: 2024/07/06 20:58:39 by adhaka           ###   ########.fr       */
+/*   Updated: 2024/07/06 21:26:01 by adhaka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int main(void)
 		++it;
 		--it;
 
-		std::cout << "Iteratorating through the stack: \n";
+		std::cout << "Iterating through the stack: \n";
 		while (it != ite)
 		{
 			std::cout << *it << std::endl;
