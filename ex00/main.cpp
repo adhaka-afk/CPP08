@@ -6,7 +6,7 @@
 /*   By: adhaka <adhaka@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 08:44:59 by adhaka            #+#    #+#             */
-/*   Updated: 2024/07/05 11:31:04 by adhaka           ###   ########.fr       */
+/*   Updated: 2024/07/06 21:19:42 by adhaka           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 			return 1;
 		}
 		std::vector<int>::iterator it = easyfind(vec, val);
-		std::cout << "Element found: " << *it << std::endl;
+		std::cout << "Element found (v): " << *it << std::endl;
 	}
 	catch (std::exception &e)
 	{
