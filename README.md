@@ -7,7 +7,7 @@ This module is designed to deepen your understanding of C++ Standard Template Li
 
 ## Module Rules:
 
-- Use of STL: You are expected to use STL containers (e.g., vector, list, map) and algorithms (e.g., those defined in <algorithm> header) extensively. Failing to use STL, even if your code works, will result in a poor grade.
+- Use of STL: You are expected to use STL containers (e.g., vector, list, map) and algorithms (e.g., those defined in <algorithm> header) extensively. Failing to use STL, even if your code works, results in a poor grade at 42.
 - Templates: Templates must be used wherever appropriate. Template definitions should be placed in header files, with optional implementation in .tpp files.
 - Testing: Comprehensive tests are crucial for each exercise to ensure correctness and robustness of your implementations.
 
